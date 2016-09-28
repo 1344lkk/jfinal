@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="jfianl_dmeo">
+        <wb-resource deploy-path="/" source-path="/WebRoot" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="jfinal-2.2-bin.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/jfianl_dmeo/WebRoot/WEB-INF/lib/jfinal-2.2-bin.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-2.5.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/jfianl_dmeo/WebRoot/WEB-INF/lib/jackson-core-2.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="objenesis-2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/jfianl_dmeo/WebRoot/WEB-INF/lib/objenesis-2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jedis-2.7.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/jfianl_dmeo/WebRoot/WEB-INF/lib/jedis-2.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fst-2.29.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/jfianl_dmeo/WebRoot/WEB-INF/lib/fst-2.29.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.20-bin.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/jfianl_dmeo/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.20-bin.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mchange-commons-java-0.2.10.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/jfianl_dmeo/WebRoot/WEB-INF/lib/mchange-commons-java-0.2.10.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cos-26Dec2008.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/jfianl_dmeo/WebRoot/WEB-INF/lib/cos-26Dec2008.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jetty-server-8.1.8.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/jfianl_dmeo/WebRoot/WEB-INF/lib/jetty-server-8.1.8.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-pool2-2.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/jfianl_dmeo/WebRoot/WEB-INF/lib/commons-pool2-2.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.19.0-GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/jfianl_dmeo/WebRoot/WEB-INF/lib/javassist-3.19.0-GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="c3p0-0.9.5.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/jfianl_dmeo/WebRoot/WEB-INF/lib/c3p0-0.9.5.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="jfianl_dmeo"/>
+        <property name="java-output-path" value="/jfianl_dmeo/WebRoot/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>
